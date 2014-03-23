@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c5c5282-1881-44b6-8345-46836dc7be1d" name="Default" comment="Added three tasks of priority-queue lab.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.03/2014.03.22 - labPriorityQueue/priorityqueue.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.03/2014.03.22 - labPriorityQueue/dsu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.03/2014.03.22 - labPriorityQueue/dsu.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.03/2014.03.22 - labPriorityQueue/isheap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.03/2014.03.22 - labPriorityQueue/isheap.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.03/2014.03.22 - labPriorityQueue/priorityqueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="contest-work.iws" />
@@ -375,7 +368,11 @@
       <created>1395003166887</created>
       <updated>1395003166887</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added three tasks of priority-queue lab.">
+      <created>1395604711136</created>
+      <updated>1395604711136</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
