@@ -1,0 +1,35 @@
+13 priorityqueue
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+85 push 3
+push 4
+push 2
+extract-min
+decrease-key 2 1
+extract-min
+extract-min
+extract-min
+7 2
+1
+3
+*
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+18 main.priorityqueue
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.03.22
+16 labPriorityQueue
+1
+14 lib.io.Scanner
+19 java.io.PrintWriter
+0
+0
