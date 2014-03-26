@@ -1,47 +1,89 @@
 package main;
 
+
+
 import lib.io.Scanner;
+
 import java.io.PrintWriter;
-import java.util.NavigableSet;
-import java.util.TreeSet;
 
 public class parking {
+    public static final int INF = (int)1e6;
+
     public void solve(int testNumber, Scanner in, PrintWriter out) {
-        NavigableSet <Integer> freeSpace = new TreeSet<Integer>();
 
         int n = in.nextInt();
-        int m = in.nextInt();
 
-        for (int i = 0; i < 2 * n; i++) {
-            freeSpace.add(i);
+        Dsu parking = new Dsu(n);
+
+        for (int i = 0; i < n; i++) {
+            parking.tree[i] = new Member(i);
+        }
+        for (int i = 0; i < n; i++) {
+            parking.tree[i].nextZero = parking.tree[(i + 1) % n];
         }
 
-        String action;
         int x;
-        for (int i = 0; i < m; i++) {
-            action = in.nextToken();
-            x = in.nextInt();
+        for (int i = 0; i < n; i++) {
+           x = in.nextInt();
             x--;
 
-            if (action.equals("enter")) {
-                int result = freeSpace.higher(x);
+            if (parking.tree[x].empty) {
 
-                if (freeSpace.contains(x)) {
-                    result = x;
-                }
+                out.print((x + 1) + " ");
+                parking.tree[x].empty = false;
 
-                if (result >= n) {
-                    freeSpace.remove(result - n);
-                } else {
-                    freeSpace.remove(result + n);
-                }
-
-                freeSpace.remove(result);
-                out.println((result % n + 1));
             } else {
-                freeSpace.add(x);
-                freeSpace.add(x + n);
+                Member currParent = parking.tree[x].get();
+                Member result = currParent.getNextZero();
+
+                out.print((result.val + 1) + " ");
+
+                result.empty = false;
+                result.union(currParent);
             }
         }
     }
+
+    public class Dsu {
+    Member[] tree;
+
+        public Dsu(int x) {
+            tree = new Member[x + 1];
+        }
+    }
+
+    public class Member {
+        int val;
+        Member parent, nextZero;
+        boolean empty;
+
+        public Member(int num) {
+            val = num;
+            empty = true;
+            parent = this;
+        }
+
+        public Member get() {
+            if (parent != this) {
+                parent = parent.get();
+            }
+            return parent;
+        }
+
+        public Member getNextZero() {
+            if (!nextZero.empty) {
+                nextZero.union(this);
+                nextZero.getNextZero();
+            }
+            return nextZero;
+        }
+
+        public void union(Member x) {
+            if (x.equals(this))
+                return;
+
+            x.parent = this;
+        }
+    }
+
 }
