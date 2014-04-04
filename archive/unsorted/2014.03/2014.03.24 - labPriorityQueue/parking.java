@@ -2,6 +2,8 @@ package main;
 
 
 
+
+
 import lib.io.Scanner;
 
 import java.io.PrintWriter;
@@ -26,6 +28,8 @@ public class parking {
         for (int i = 0; i < n; i++) {
            x = in.nextInt();
             x--;
+            Member currParent = parking.tree[x].get();
+            Member result = currParent.getNextZero();
 
             if (parking.tree[x].empty) {
 
@@ -33,13 +37,10 @@ public class parking {
                 parking.tree[x].empty = false;
 
             } else {
-                Member currParent = parking.tree[x].get();
-                Member result = currParent.getNextZero();
 
                 out.print((result.val + 1) + " ");
 
                 result.empty = false;
-                result.union(currParent);
             }
         }
     }
@@ -71,9 +72,9 @@ public class parking {
         }
 
         public Member getNextZero() {
-            if (!nextZero.empty) {
-                nextZero.union(this);
-                nextZero.getNextZero();
+            if (!nextZero.empty && !empty) {
+                nextZero.union(get());
+                nextZero = get().getNextZero();
             }
             return nextZero;
         }
