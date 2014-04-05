@@ -1,0 +1,242 @@
+9 bstsimple
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+4
+0
+82 insert 2
+insert 5
+insert 3
+exists 2 
+exists 4
+next 4
+prev 4
+delete 5
+next 4
+prev 4
+21 true
+false
+5
+3
+none
+3
+1
+1
+31 delete 3
+exists 3
+next 3
+prev 3
+15 false
+none
+none
+1
+2
+132 insert 2
+insert 1
+insert 3
+exists 1
+exists 2
+exists 3
+delete 2
+exists 1 
+exists 2
+exists 3
+next 2
+prev 2
+next 1
+prev 1
+next 3
+prev 3
+48 true
+true
+true
+true
+false
+true
+3
+1
+3
+none
+none
+1
+1
+3
+817 insert 0
+prev 2
+delete 6
+delete 1
+delete 4
+insert 4
+insert 8
+insert 2
+prev 3
+next 3
+next 8
+next 3
+insert 3
+exists 2
+prev 2
+exists 1
+prev 2
+next 9
+exists 8
+prev 0
+insert 1
+exists 0
+exists 0
+next 6
+next 7
+exists 2
+next 5
+prev 6
+prev 2
+next 2
+insert 7
+exists 8
+exists 5
+prev 6
+delete 0
+next 9
+next 7
+insert 1
+prev 7
+exists 8
+next 2
+insert 6
+delete 8
+insert 2
+exists 9
+insert 1
+delete 1
+exists 4
+delete 1
+next 7
+next 0
+insert 0
+insert 7
+prev 3
+next 4
+next 4
+delete 8
+prev 1
+insert 0
+insert 1
+next 2
+exists 2
+delete 8
+delete 3
+next 6
+prev 3
+exists 2
+next 7
+exists 7
+exists 5
+exists 8
+next 1
+exists 4
+insert 0
+exists 6
+insert 9
+prev 6
+prev 2
+next 7
+exists 6
+insert 2
+prev 3
+insert 9
+delete 0
+insert 8
+exists 6
+insert 6
+insert 3
+prev 5
+delete 4
+prev 3
+delete 4
+insert 8
+next 1
+prev 4
+insert 8
+exists 2
+prev 5
+insert 6
+prev 5
+210 0
+2
+4
+none
+4
+true
+0
+false
+0
+none
+true
+none
+true
+true
+8
+8
+true
+8
+4
+1
+3
+true
+false
+4
+none
+8
+4
+true
+3
+false
+true
+none
+2
+2
+6
+6
+0
+3
+true
+7
+2
+true
+none
+true
+false
+false
+2
+true
+true
+4
+1
+9
+true
+2
+true
+4
+2
+2
+3
+true
+3
+3 
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+14 main.bstsimple
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.04
+9 lab-trees
+1
+14 lib.io.Scanner
+19 java.io.PrintWriter
+0
+0

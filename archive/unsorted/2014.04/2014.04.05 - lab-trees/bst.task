@@ -1,0 +1,46 @@
+3 bst
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+113 insert 2
+insert 3
+insert 4
+insert 5
+insert 6
+exists 2
+exists 5
+exists 6
+next 2
+prev 2
+next 5
+prev 5
+next 6
+prev 6
+32 true
+true
+true
+3
+none
+6
+4
+none
+5
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+8 main.bst
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.05
+9 lab-trees
+1
+14 lib.io.Scanner
+19 java.io.PrintWriter
+0
+0
