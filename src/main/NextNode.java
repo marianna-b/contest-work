@@ -4,7 +4,7 @@ public class NextNode {
 
     public static Node next(Node curr, int x) {
 
-        if (curr.isList) {
+        if (curr == null || curr.isList) {
             return null;
         }
 

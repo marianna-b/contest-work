@@ -3,7 +3,7 @@ package main;
 public class PreviousNode {
     public static Node prev(Node curr, int x) {
 
-        if (curr.isList) {
+        if (curr == null || curr.isList) {
             return null;
         }
 

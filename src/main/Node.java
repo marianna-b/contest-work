@@ -40,7 +40,7 @@ public class Node {
 
         if (x < key) {
 
-            if (left.isList) {
+            if (!left.isList) {
 
                 return left.exists(x);
             } else {
@@ -49,7 +49,7 @@ public class Node {
             }
         } else {
 
-            if (right.isList) {
+            if (!right.isList) {
 
                 return right.exists(x);
             } else {

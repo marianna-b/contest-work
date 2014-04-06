@@ -2,64 +2,60 @@ package main;
 
 public class DeleteNode {
 
-    public static void delete(Node tree, Node x) {
+    public static Node delete(Node tree, Node x) {
+
+        Node p = x.parent;
 
         if (x.left.isList && x.right.isList) {
-            DeleteNode.deleteList(x);
-            return;
+
+            deleteList(x);
+            return RedBlack.balanceDeletion(p);
         }
 
-        if (x.left == null) {
-            DeleteNode.deleteWithR(x);
-            if (x.color == Node.Color.RED) {
-                x.right.color = Node.Color.BLACK;
-            } else {
-                DeleteNode.delete(tree, x.right);
-            }
-            return;
+        if (x.left.isList) {
+
+            deleteWithR(x);
+            return RedBlack.balanceDeletion(x);
         }
 
-        if (x.right == null) {
-            DeleteNode.deleteWithL(x);
-            if (x.color == Node.Color.RED) {
-                x.left.color = Node.Color.BLACK;
-            } else {
-                DeleteNode.delete(tree, x.left);
-            }
-            return;
+        if (x.right.isList) {
+
+            deleteWithL(x);
+            return RedBlack.balanceDeletion(x);
         }
 
-        Node s = RedBlack.getBrother(x);
-        Node p = x.parent;
-        if (s != null && s.color == Node.Color.RED) {
-            p.color = Node.Color.RED;
-            s.color = Node.Color.BLACK;
-
-            if (p.left ==)
-                return;
+        p = NextNode.next(tree, x.key);
+        x.key = p.key;
+        if (x.color == Node.Color.BLACK) {
+            p.isList = true;
+            p.color = Node.Color.BLACK;
+            return RedBlack.balanceDeletion(p.parent);
+        } else {
+            return delete(tree, p);
         }
     }
 
-    public static int deleteRoot(Node x) {
+    public static Node deleteRoot(Node x) {
 
-        if (x.left == null && x.right == null) {
-            return -1;
+        if (x.left.isList && x.right.isList) {
+            return null;
         }
 
-        if (x.left == null) {
+        if (x.left.isList) {
             DeleteNode.deleteWithR(x);
-            return 0;
+
+            return RedBlack.balanceDeletion(x);
         }
 
-        if (x.right == null) {
+        if (x.right.isList) {
             DeleteNode.deleteWithL(x);
-            return 0;
+
+            return RedBlack.balanceDeletion(x);
         }
 
         Node p = NextNode.next(x, x.key);
         x.key = p.key;
-        delete(x, p);
-        return 0;
+        return delete(x, p);
     }
 
     private static void deleteList(Node x) {
@@ -73,12 +69,17 @@ public class DeleteNode {
     }
 
     private static void deleteWithR(Node x) {
+        x.right.left.parent = x;
+        x.right.right.parent = x;
         x.key = x.right.key;
         x.left = x.right.left;
         x.right = x.right.right;
     }
 
     private static void deleteWithL(Node x) {
+        x.left.left.parent = x;
+        x.left.right.parent = x;
+
         x.key = x.left.key;
         x.right = x.left.right;
         x.left = x.left.left;

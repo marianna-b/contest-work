@@ -1,5 +1,7 @@
 package main;
 
+
+
         import lib.io.Scanner;
         import java.io.PrintWriter;
         import java.util.InputMismatchException;
@@ -22,9 +24,10 @@ public class bst {
                         if (tree == null) {
 
                             tree = new Node(x, null);
+                            tree.color = Node.Color.BLACK;
                         } else {
                             if (tree.exists(x) == null) {
-                                InsertNode.insert(tree, x);
+                                tree = InsertNode.insert(tree, x);
                             }
                         }
                         break;
@@ -41,11 +44,7 @@ public class bst {
                         if (result != null) {
 
                             if (result.parent == null) {
-
-                                if (DeleteNode.deleteRoot(tree) < 0) {
-
-                                    tree = null;
-                                }
+                                tree = DeleteNode.deleteRoot(tree);
                             } else {
 
                                 DeleteNode.delete(tree, result);
