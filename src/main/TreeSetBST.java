@@ -1,4 +1,4 @@
-package main.bstsimple;
+package main;
 
 import lib.io.Scanner;
 

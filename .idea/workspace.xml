@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c5c5282-1881-44b6-8345-46836dc7be1d" name="Default" comment="Added first task of lab-tree. Working version.&#10;Added second task of lab-tree. Notworking version.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/badsolutions/BSTStress.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/bstsimple/TreeSetBST.java" />
+    <list default="true" id="7c5c5282-1881-44b6-8345-46836dc7be1d" name="Default" comment="Fixing second task of lab-tree. Notworking version.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/FixDel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/FixIns.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/io/Treap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.06 - lab-trees/movetofront.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.06 - lab-trees/movetofront.task" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/badsolutions/BSTStress.java" afterPath="$PROJECT_DIR$/src/main/BSTStress.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/bstsimple/TreeSetBST.java" afterPath="$PROJECT_DIR$/src/main/TreeSetBST.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/DeleteNode.java" afterPath="$PROJECT_DIR$/src/main/DeleteNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/InsertNode.java" afterPath="$PROJECT_DIR$/src/main/InsertNode.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/NextNode.java" afterPath="$PROJECT_DIR$/src/main/NextNode.java" />
@@ -12,7 +19,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/RedBlack.java" afterPath="$PROJECT_DIR$/src/main/RedBlack.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.05 - lab-trees/bst.java" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.05 - lab-trees/bst.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.05 - lab-trees/bst.task" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.05 - lab-trees/bst.task" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.04 - lab-trees/bstsimple.java" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.04 - lab-trees/bstsimple.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="contest-work.iws" />
@@ -74,37 +81,7 @@
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/main/RedBlack.java" line="94" class="main.RedBlack" package="main">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/DeleteNode.java" line="6" class="main.DeleteNode" package="main">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/DeleteNode.java" line="39" class="main.DeleteNode" package="main">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/FixDel.java" line="14" class="main.FixDel" package="main">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -129,19 +106,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/Node.java">
+      <file leaf-file-name="FixIns.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/FixIns.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1476">
+            <state line="15" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="1296">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedBlack.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FixDel.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/FixDel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.34055117" vertical-offset="79" max-vertical-offset="1638">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedBlack.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/RedBlack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="9" selection-start="329" selection-end="329" vertical-scroll-proportion="0.1409002" vertical-offset="162" max-vertical-offset="4176">
+            <state line="11" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1386">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scanner.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/io/Scanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="1242">
               <folding />
             </state>
           </provider>
@@ -150,7 +145,43 @@
       <file leaf-file-name="DeleteNode.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/DeleteNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1674">
+            <state line="8" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InsertNode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/InsertNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bst.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/bst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="1854">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BSTStress.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/BSTStress.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="40" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1440">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="1476">
               <folding />
             </state>
           </provider>
@@ -185,18 +216,29 @@
         <option value="$PROJECT_DIR$/src/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/bstsimple.java" />
         <option value="$PROJECT_DIR$/src/main/NodeInsert.java" />
-        <option value="$PROJECT_DIR$/src/main/InsertNode.java" />
-        <option value="$PROJECT_DIR$/src/main/Node.java" />
-        <option value="$PROJECT_DIR$/src/main/PreviousNode.java" />
-        <option value="$PROJECT_DIR$/src/main/BSTStress.java" />
-        <option value="$PROJECT_DIR$/src/main/TreeSetBST.java" />
         <option value="$PROJECT_DIR$/src/main/badsolutions/TreeSetBST.java" />
-        <option value="$PROJECT_DIR$/src/main/NextNode.java" />
-        <option value="$PROJECT_DIR$/src/main/bst.java" />
+        <option value="$PROJECT_DIR$/src/main/Treap.java" />
+        <option value="$PROJECT_DIR$/src/main/movetofront.java" />
+        <option value="$PROJECT_DIR$/src/main/bstsimple/InsertNode.java" />
+        <option value="$PROJECT_DIR$/src/main/bstsimple/NextNode.java" />
+        <option value="$PROJECT_DIR$/src/main/bstsimple/PreviousNode.java" />
+        <option value="$PROJECT_DIR$/src/main/bstsimple/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/bstsimple/DeleteNode.java" />
+        <option value="$PROJECT_DIR$/src/main/FixInsertion.java" />
+        <option value="$PROJECT_DIR$/src/main/FixDeletion.java" />
         <option value="$PROJECT_DIR$/src/main/badsolutions/BSTStress.java" />
+        <option value="$PROJECT_DIR$/src/main/TreeSetBST.java" />
         <option value="$PROJECT_DIR$/output/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/DeleteNode.java" />
+        <option value="$PROJECT_DIR$/src/main/PreviousNode.java" />
+        <option value="$PROJECT_DIR$/src/main/NextNode.java" />
         <option value="$PROJECT_DIR$/src/main/RedBlack.java" />
+        <option value="$PROJECT_DIR$/src/main/Node.java" />
+        <option value="$PROJECT_DIR$/src/main/InsertNode.java" />
+        <option value="$PROJECT_DIR$/src/main/FixIns.java" />
+        <option value="$PROJECT_DIR$/src/main/FixDel.java" />
+        <option value="$PROJECT_DIR$/src/main/DeleteNode.java" />
+        <option value="$PROJECT_DIR$/src/main/bst.java" />
+        <option value="$PROJECT_DIR$/src/main/BSTStress.java" />
       </list>
     </option>
   </component>
@@ -204,9 +246,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="683" />
+    <option name="x" value="-1" />
     <option name="y" value="27" />
-    <option name="width" value="684" />
+    <option name="width" value="1368" />
     <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -235,6 +277,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,50 +311,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contest-work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contest-work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bstsimple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contest-work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contest-work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="badsolutions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,7 +396,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -425,10 +423,39 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Task.bst">
     <configuration default="false" name="BSTStress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.badsolutions.BSTStress" />
+      <option name="MAIN_CLASS_NAME" value="badsolutions.BSTStress" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="contest-work" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BSTStress (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.BSTStress" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -483,6 +510,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -508,19 +548,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -580,6 +607,14 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="false" name="Task" type="Task" factoryName="Task">
+      <taskConf />
+      <method />
+    </configuration>
+    <configuration default="false" name="ьщмуещакщте" type="Task" factoryName="Task">
+      <taskConf />
+      <method />
+    </configuration>
     <configuration default="false" name="bst" type="Task" factoryName="Task">
       <taskConf>src/main/bst.task</taskConf>
       <RunnerSettings RunnerId="Debug">
@@ -592,13 +627,17 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Task.bst" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BSTStress" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Task.Task" />
+      <item index="1" class="java.lang.String" itemvalue="Task.ьщмуещакщте" />
+      <item index="2" class="java.lang.String" itemvalue="Task.bst" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BSTStress" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BSTStress (1)" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.BSTStress" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.BSTStress (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BSTStress" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -662,11 +701,15 @@
       <created>1396712556545</created>
       <updated>1396712556545</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixing second task of lab-tree. Notworking version.">
+      <created>1396774020824</created>
+      <updated>1396774020824</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="27" width="684" height="742" extended-state="4" />
+    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -675,23 +718,24 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30167174" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31458968" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32854578" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3281787" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2642405" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.664557" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2636778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38981763" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="UnknownFeatures">
@@ -716,7 +760,8 @@
     <MESSAGE value="Added last(forth) tasks(new task) of priority-queue lab." />
     <MESSAGE value="Added first task of lab-tree. Not working version." />
     <MESSAGE value="Added first task of lab-tree. Working version.&#10;Added second task of lab-tree. Notworking version." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added first task of lab-tree. Working version.&#10;Added second task of lab-tree. Notworking version." />
+    <MESSAGE value="Fixing second task of lab-tree. Notworking version." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing second task of lab-tree. Notworking version." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -732,54 +777,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/PreviousNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/NextNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/RedBlack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3078">
+        <state line="11" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1422">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/InsertNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="43" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DeleteNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1548">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/badsolutions/BSTStress.java">
+    <entry file="file://$PROJECT_DIR$/src/main/BSTStress.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="22" selection-start="50" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1440">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/bstsimple/TreeSetBST.java">
+    <entry file="file://$PROJECT_DIR$/src/main/TreeSetBST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="20" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="900">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -948,11 +963,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/chelper.jar!/net/egork/chelper/tester/Verdict.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="556" selection-end="556" vertical-scroll-proportion="-3.28" vertical-offset="152" max-vertical-offset="648" />
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/chelper.jar!/net/egork/chelper/util/OutputWriter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="16" selection-start="401" selection-end="401" vertical-scroll-proportion="0.43548387" vertical-offset="0" max-vertical-offset="558" />
@@ -968,88 +978,124 @@
         <state line="216" column="1" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.032629557" vertical-offset="3871" max-vertical-offset="4464" />
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-openjdk/jre/lib/rt.jar!/java/lang/System.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="44" selection-start="259" selection-end="259" vertical-scroll-proportion="0.23507462" vertical-offset="0" max-vertical-offset="1818" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/io/Treap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="110" column="51" selection-start="2783" selection-end="2783" vertical-scroll-proportion="0.0" vertical-offset="1773" max-vertical-offset="2322">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.04 - lab-trees/bstsimple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2070">
+        <state line="4" column="23" selection-start="67" selection-end="94" vertical-scroll-proportion="0.13114753" vertical-offset="0" max-vertical-offset="2196">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/bstsimple/TreeSetBST.java">
+    <entry file="file://$PROJECT_DIR$/src/main/TreeSetBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="580" selection-end="580" vertical-scroll-proportion="0.0" vertical-offset="379" max-vertical-offset="900">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state line="24" column="28" selection-start="609" selection-end="609" vertical-scroll-proportion="0.6909789" vertical-offset="0" max-vertical-offset="828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/bst.task">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/chelper.jar!/net/egork/chelper/tester/Verdict.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="556" selection-end="556" vertical-scroll-proportion="0.3498965" vertical-offset="65" max-vertical-offset="648" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/chelper.jar!/net/egork/chelper/tester/NewTester.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="549" selection-end="549" vertical-scroll-proportion="0.3726708" vertical-offset="0" max-vertical-offset="486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/PreviousNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="49" selection-start="295" selection-end="295" vertical-scroll-proportion="0.48368523" vertical-offset="0" max-vertical-offset="918">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/NextNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="117" selection-end="117" vertical-scroll-proportion="0.19672132" vertical-offset="0" max-vertical-offset="918">
+        <state line="14" column="47" selection-start="288" selection-end="288" vertical-scroll-proportion="0.48368523" vertical-offset="0" max-vertical-offset="936">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/PreviousNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/FixIns.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/io/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/chelper/lib/chelper.jar!/net/egork/chelper/tester/NewTester.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="26" selection-start="549" selection-end="549" vertical-scroll-proportion="0.33582088" vertical-offset="0" max-vertical-offset="536">
+        <state line="15" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="1296">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/InsertNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.7258065" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/badsolutions/BSTStress.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="312" selection-end="312" vertical-scroll-proportion="-1.7204969" vertical-offset="975" max-vertical-offset="1458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/bst.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1357" selection-end="1357" vertical-scroll-proportion="-0.0704501" vertical-offset="918" max-vertical-offset="2070">
+        <state line="9" column="0" selection-start="171" selection-end="171" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="1476">
+        <state line="19" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="169" max-vertical-offset="1476">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/DeleteNode.java">
+    <entry file="file://$PROJECT_DIR$/src/lib/io/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1674">
+        <state line="27" column="0" selection-start="616" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="213" max-vertical-offset="1242">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/RedBlack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="329" selection-end="329" vertical-scroll-proportion="0.1409002" vertical-offset="162" max-vertical-offset="4176">
+        <state line="11" column="0" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="1386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/DeleteNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/BSTStress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="40" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1440">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/bst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="1854">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/FixDel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.34055117" vertical-offset="79" max-vertical-offset="1638">
           <folding />
         </state>
       </provider>

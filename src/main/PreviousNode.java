@@ -9,14 +9,14 @@ public class PreviousNode {
 
         if (curr.key >= x) {
 
-            return PreviousNode.prev(curr.left, x);
+            return prev(curr.left, x);
         } else {
 
-            if (!curr.right.isList) {
+            if (curr.right != null && !curr.right.isList) {
 
                 if (checkRightSon(curr, x)) {
 
-                    return PreviousNode.prev(curr.right, x);
+                    return prev(curr.right, x);
                 } else {
 
                     return thisNode(curr, x);

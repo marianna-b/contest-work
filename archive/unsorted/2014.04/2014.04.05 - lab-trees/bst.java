@@ -2,7 +2,13 @@ package main;
 
 
 
+
+
+
+
         import lib.io.Scanner;
+        import bstsimple.*;
+
         import java.io.PrintWriter;
         import java.util.InputMismatchException;
 
@@ -27,7 +33,7 @@ public class bst {
                             tree.color = Node.Color.BLACK;
                         } else {
                             if (tree.exists(x) == null) {
-                                tree = InsertNode.insert(tree, x);
+                                tree = InsertNode.insert(tree, tree, x);
                             }
                         }
                         break;

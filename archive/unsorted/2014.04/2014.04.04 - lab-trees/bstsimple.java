@@ -1,6 +1,10 @@
 package main;
 
 import lib.io.Scanner;
+import bstsimple.DeleteNode;
+import bstsimple.NextNode;
+import bstsimple.Node;
+import bstsimple.PreviousNode;
 
 import java.io.PrintWriter;
 import java.util.InputMismatchException;

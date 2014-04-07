@@ -1,8 +1,6 @@
-package main.badsolutions;
+package main;
 
 import lib.io.Scanner;
-import main.bst;
-import main.bstsimple.TreeSetBST;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -13,7 +11,7 @@ import java.util.Random;
  * @author Zakhar Voit (zakharvoit@gmail.com)
  */
 public class BSTStress {
-    public static final int MAX = 5;
+    public static final int MAX = 100000;
 
     public static void main(String[] args) throws IOException {
         Random rnd = new Random(10);

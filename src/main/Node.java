@@ -4,34 +4,34 @@ public class Node {
 
     public int key;
     public Color color;
-    public boolean isList;
     public Node left, right, parent;
-
+    boolean isList;
 
     public static enum Color {
         RED, BLACK
     }
 
     public Node(Node p) {
-        isList = true;
         color = Color.BLACK;
         parent = p;
+        left = null;
+        right = null;
+        isList = true;
     }
 
     public Node(int k, Node p) {
         key = k;
-        isList = false;
         color = Color.RED;
         parent = p;
         left = new Node(this);
         right = new Node(this);
+        isList = false;
     }
 
     public Node exists(int x) {
 
-        if (this.isList) {
+        if (isList)
             return null;
-        }
 
         if (key == x) {
 
@@ -40,7 +40,7 @@ public class Node {
 
         if (x < key) {
 
-            if (!left.isList) {
+            if (left != null && !left.isList) {
 
                 return left.exists(x);
             } else {
@@ -49,7 +49,7 @@ public class Node {
             }
         } else {
 
-            if (!right.isList) {
+            if (right != null && !right.isList) {
 
                 return right.exists(x);
             } else {
@@ -60,7 +60,7 @@ public class Node {
     }
 
     public Node minInTree() {
-        if (!left.isList) {
+        if (left != null && !left.isList) {
 
             return left.minInTree();
         }
@@ -68,7 +68,7 @@ public class Node {
     }
 
     public Node maxInTree() {
-        if (!right.isList) {
+        if (right != null && !right.isList) {
 
             return right.maxInTree();
         }

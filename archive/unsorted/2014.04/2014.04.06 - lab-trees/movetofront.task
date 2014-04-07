@@ -1,0 +1,28 @@
+11 movetofront
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+1
+0
+15 6 3
+2 4
+3 5
+2 2
+11 1 4 5 2 3 6
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+16 main.movetofront
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.06
+9 lab-trees
+1
+14 lib.io.Scanner
+19 java.io.PrintWriter
+0
+0
