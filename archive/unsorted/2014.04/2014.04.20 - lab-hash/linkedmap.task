@@ -1,0 +1,65 @@
+9 linkedmap
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+139 put zero a
+put one b
+put two c
+put three d
+put four e
+get two
+prev two
+next two
+delete one
+delete three
+get two
+prev two
+next two
+next four
+16 c
+b
+d
+c
+a
+e
+none
+0
+1
+86 put a 1
+put b 2
+put c 3
+put d 4
+delete b
+next a
+prev c
+get b
+get c
+get d
+next d
+prev a
+22 3
+1
+none
+3
+4
+none
+none
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+14 main.linkedmap
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.20
+8 lab-hash
+1
+14 lib.io.Scanner
+19 java.io.PrintWriter
+0
+0

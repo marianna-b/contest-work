@@ -1,13 +1,6 @@
 package main;
 
-
-
-
-
-
-
         import lib.io.Scanner;
-        import bstsimple.*;
 
         import java.io.PrintWriter;
         import java.util.InputMismatchException;
@@ -39,22 +32,14 @@ public class bst {
                         break;
 
                     case 'd':
-                        if (tree != null) {
-
+                        if (tree != null)
                             result = tree.exists(x);
-                        } else {
-
+                        else
                             result = null;
-                        }
 
                         if (result != null) {
 
-                            if (result.parent == null) {
-                                tree = DeleteNode.deleteRoot(tree);
-                            } else {
-
-                                DeleteNode.delete(tree, result);
-                            }
+                            tree = DeleteNode.delete(tree, result);
                         }
 
                         break;

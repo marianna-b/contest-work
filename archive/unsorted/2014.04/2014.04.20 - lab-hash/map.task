@@ -1,0 +1,53 @@
+3 map
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+3
+0
+71 put hello privet
+put bye poka
+get hello
+get bye
+delete hello
+get hello	
+17 privet
+poka 
+none
+1
+1
+98 put aaaaaaaaaaaaaaaaaaaaaaaa aaaaa
+put aaaaaaaaaaaaaaaaaaaaaaab aaaaa
+get aaaaaaaaaaaaaaaaaaaaaaac
+4 none
+1
+2
+64 put a a
+put a b
+get a
+put a a
+delete a
+get a
+put b a
+get a
+get b
+13 b
+none
+none
+a
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+8 main.map
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.20
+8 lab-hash
+1
+14 lib.io.Scanner
+19 java.io.PrintWriter
+0
+0

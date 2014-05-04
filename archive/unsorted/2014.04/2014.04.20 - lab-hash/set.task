@@ -1,0 +1,58 @@
+3 set
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+71 insert 2
+insert 5
+insert 3
+exists 2
+exists 4
+insert 2
+delete 2
+exists 2
+16 true
+false
+false
+1
+1
+167 insert 1
+insert 2
+insert 0
+insert 10000007
+insert 10000008
+insert 10000009
+exists 1
+exists 2
+exists 0
+exists 3
+exists 4
+exists 10000007
+exists 10000008
+exists 10000009
+41 true
+true
+true
+false
+false
+true
+true
+true
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+8 main.set
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.04.20
+8 lab-hash
+1
+14 lib.io.Scanner
+19 java.io.PrintWriter
+0
+0

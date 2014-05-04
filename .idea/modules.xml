@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/bst/bst.iml" filepath="$PROJECT_DIR$/bst/bst.iml" />
       <module fileurl="file://$PROJECT_DIR$/contest-work.iml" filepath="$PROJECT_DIR$/contest-work.iml" />
     </modules>
   </component>
