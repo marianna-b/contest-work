@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c5c5282-1881-44b6-8345-46836dc7be1d" name="Default" comment="Fixing second task of lab-tree. Working version/">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/io/MyMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/io/MyMultiMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/SegmTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bst/bst.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.20 - lab-hash/linkedmap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.21 - lab-hash/linkedmap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.20 - lab-hash/linkedmap.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.21 - lab-hash/linkedmap.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.20 - lab-hash/map.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.20 - lab-hash/map.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.21 - lab-hash/multimap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.21 - lab-hash/multimap.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.05/2014.05.01 - lab-segm-tree/rmq.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.05/2014.05.01 - lab-segment-tree/rmq.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.05/2014.05.01 - lab-segm-tree/rmq.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.05/2014.05.01 - lab-segment-tree/rmq.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.05/2014.05.04 - lab-segment-tree/rmq2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.05/2014.05.04 - lab-segment-tree/rmq2.task" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/io/segmTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.20 - lab-hash/set.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.20 - lab-hash/set.task" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/BSTStress.java" afterPath="$PROJECT_DIR$/bst/BSTStress.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/DeleteNode.java" afterPath="$PROJECT_DIR$/bst/DeleteNode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/FixDel.java" afterPath="$PROJECT_DIR$/bst/FixDel.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/FixIns.java" afterPath="$PROJECT_DIR$/bst/FixIns.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/InsertNode.java" afterPath="$PROJECT_DIR$/bst/InsertNode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/NextNode.java" afterPath="$PROJECT_DIR$/bst/NextNode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/Node.java" afterPath="$PROJECT_DIR$/bst/Node.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/PreviousNode.java" afterPath="$PROJECT_DIR$/bst/PreviousNode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/RedBlack.java" afterPath="$PROJECT_DIR$/bst/RedBlack.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/TreeSetBST.java" afterPath="$PROJECT_DIR$/bst/TreeSetBST.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.05 - lab-trees/bst.java" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.05 - lab-trees/bst.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.05 - lab-trees/bst.task" afterPath="$PROJECT_DIR$/archive/unsorted/2014.04/2014.04.05 - lab-trees/bst.task" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chelper.properties" afterPath="$PROJECT_DIR$/chelper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+    <list default="true" id="7c5c5282-1881-44b6-8345-46836dc7be1d" name="Default" comment="Addint segment-tree lab">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="contest-work.iws" />
@@ -223,7 +187,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -234,66 +198,7 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contest-work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contest-work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contest-work" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contest-work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contest-work" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contest-work" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contest-work" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="io" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -596,7 +501,11 @@
       <created>1396888948641</created>
       <updated>1396888948641</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Addint segment-tree lab">
+      <created>1399191651531</created>
+      <updated>1399191651531</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -684,7 +593,8 @@
     <MESSAGE value="Added first task of lab-tree. Working version.&#10;Added second task of lab-tree. Notworking version." />
     <MESSAGE value="Fixing second task of lab-tree. Notworking version." />
     <MESSAGE value="Fixing second task of lab-tree. Working version/" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing second task of lab-tree. Working version/" />
+    <MESSAGE value="Addint segment-tree lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Addint segment-tree lab" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
