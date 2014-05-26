@@ -1,0 +1,41 @@
+9 binsearch
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+2
+0
+19 5
+1 1 2 2 2
+3
+1 2 3
+13 1 2
+3 5
+-1 -1
+1
+1
+42 10
+1 2 4 7 99 99 99 99 99 999
+4
+2 7 999 99
+18 2 2
+4 4
+10 10
+5 9
+
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+14 main.binsearch
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.24
+8 lab-sort
+1
+14 lib.io.Scanner
+19 java.io.PrintWriter
+0
+0

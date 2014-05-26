@@ -1,0 +1,48 @@
+9 radixsort
+6 SINGLE
+7 TASK_ID
+9 input.txt
+7 TASK_ID
+10 output.txt
+3
+0
+17 3 3 1
+bbb
+aba
+baa
+11 aba
+baa
+bbb
+1
+1
+17 3 3 2
+bbb
+aba
+baa
+11 baa
+aba
+bbb
+1
+2
+17 3 3 3
+bbb
+aba
+baa
+11 aba
+baa
+bbb
+1
+8 src/main
+16 -Xmx256m -Xss64m
+4 Main
+14 main.radixsort
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2014.05.25
+8 lab-sort
+1
+14 lib.io.Scanner
+19 java.io.PrintWriter
+0
+0
